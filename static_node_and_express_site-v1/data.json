@@ -1,0 +1,48 @@
+
+{"projects": [
+    {
+        "id": 0,
+        "project_name": "project 1",
+        "description": "a description of project one",
+        "technologies": ["one", "two", "three"],
+        "live-link": "link",
+        "github_link": "github link",
+        "image_urls": ["url one", "url two", "url three"]
+    },
+    {
+        "id": 1,
+        "project_name": "project 1",
+        "description": "a description of project one",
+        "technologies": ["one", "two", "three"],
+        "live-link": "link",
+        "github_link": "github link",
+        "image_urls": ["url one", "url two", "url three"]
+    },
+    {
+        "id": 2,
+        "project_name": "project 1",
+        "description": "a description of project one",
+        "technologies": ["one", "two", "three"],
+        "live-link": "link",
+        "github_link": "github link",
+        "image_urls": ["url one", "url two", "url three"]
+    },
+    {
+        "id": 3,
+        "project_name": "project 1",
+        "description": "a description of project one",
+        "technologies": ["one", "two", "three"],
+        "live-link": "link",
+        "github_link": "github link",
+        "image_urls": ["url one", "url two", "url three"]
+    },
+    {
+        "id": 4,
+        "project_name": "project 1",
+        "description": "a description of project one",
+        "technologies": ["one", "two", "three"],
+        "live-link": "link",
+        "github_link": "github link",
+        "image_urls": ["url one", "url two", "url three"]
+    }
+]}

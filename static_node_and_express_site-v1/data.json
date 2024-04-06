@@ -1,48 +1,92 @@
-
-{"projects": [
-    {
-        "id": 0,
-        "project_name": "project 1",
-        "description": "a description of project one",
-        "technologies": ["one", "two", "three"],
-        "live-link": "link",
-        "github_link": "github link",
-        "image_urls": ["url one", "url two", "url three"]
-    },
-    {
-        "id": 1,
-        "project_name": "project 1",
-        "description": "a description of project one",
-        "technologies": ["one", "two", "three"],
-        "live-link": "link",
-        "github_link": "github link",
-        "image_urls": ["url one", "url two", "url three"]
-    },
-    {
-        "id": 2,
-        "project_name": "project 1",
-        "description": "a description of project one",
-        "technologies": ["one", "two", "three"],
-        "live-link": "link",
-        "github_link": "github link",
-        "image_urls": ["url one", "url two", "url three"]
-    },
-    {
-        "id": 3,
-        "project_name": "project 1",
-        "description": "a description of project one",
-        "technologies": ["one", "two", "three"],
-        "live-link": "link",
-        "github_link": "github link",
-        "image_urls": ["url one", "url two", "url three"]
-    },
-    {
-        "id": 4,
-        "project_name": "project 1",
-        "description": "a description of project one",
-        "technologies": ["one", "two", "three"],
-        "live-link": "link",
-        "github_link": "github link",
-        "image_urls": ["url one", "url two", "url three"]
-    }
-]}
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Provides the user with a random quote background color",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live-link": "link",
+            "github_link": "https://github.com/Erin-Ramos/Project1-RandomQuoteGenerator",
+            "image_url": [
+                "url one",
+                "url two",
+                "url three"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "An interactive webpage that allows the user to flip through pages of students and dynamically search for a specific student",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live-link": "link",
+            "github_link": "https://github.com/Erin-Ramos/Project2-DataPagination",
+            "image_url": [
+                "url one",
+                "url two",
+                "url three"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Registration form allowing the user to choose their job role, t-shirt style and size, sign up for courses, and submit payment",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live-link": "link",
+            "github_link": "https://github.com/Erin-Ramos/Project3-InteractiveForm",
+            "image_url": [
+                "url one",
+                "url two",
+                "url three"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show",
+            "description": "Hangman like game with 5 lives and 5 random phrases. Guess the phrase!",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Object-Oriented Programming"
+            ],
+            "live-link": "link",
+            "github_link": "https://github.com/Erin-Ramos/Project4-OOPGameShow",
+            "image_url": [
+                "url one",
+                "url two",
+                "url three"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Pulls 12 random users from a third party API to be used to create an employee directory",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON",
+                "API"
+            ],
+            "live-link": "link",
+            "github_link": "https://github.com/Erin-Ramos/Project5-PublicAPIRequestsk",
+            "image_url": [
+                "url one",
+                "url two",
+                "url three"
+            ]
+        }
+    ]
+}

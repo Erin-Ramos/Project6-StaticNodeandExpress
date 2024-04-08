@@ -4,22 +4,18 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
     h1 My Portfolio
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p Hi! Thanks so much for checking out my portfolio. 
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-
       each project in projects
 
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src='https://placehold.it/550x350', alt='')
+            img.thumbnail(src=`${project.image_url[0]}`, alt='')
             h5= `${project.project_name}`
 

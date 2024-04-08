@@ -1,15 +1,15 @@
-const express = require('express'); //good
-const bodyParser = require('body-parser'); //good
+const express = require('express');
+const bodyParser = require('body-parser'); 
 const {projects} = require('./data.json'); 
 
-const app = express(); //good
+const app = express();
 
-app.use(bodyParser.urlencoded({extended: false})); //good
+app.use(bodyParser.urlencoded({extended: false}));
 
-app.set('view engine', 'pug'); //good 
-app.use('/static', express.static('public')); //good
+app.set('view engine', 'pug'); 
+app.use('/static', express.static('public'));
 
-// set your routes 
+// set routes 
 //----------------
 // index to render the home page with locals set to data.projects
 app.get('/', (req, res, next) => {
@@ -39,7 +39,7 @@ app.get('/projects/:id', (req, res, next) => {
 // log a string to the console stating which port it's listening to 
 app.listen(3000, () => {
     console.log('This application is running on localhost:3000!')
-}); // good
+});
 
 //-----------------
 // handle errors

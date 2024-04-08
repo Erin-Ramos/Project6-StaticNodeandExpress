@@ -12,9 +12,8 @@
             "live-link": "link",
             "github_link": "https://github.com/Erin-Ramos/Project1-RandomQuoteGenerator",
             "image_url": [
-                "url one",
-                "url two",
-                "url three"
+                "/static/images/0-0.png",
+                "/static/images/0-1.png"
             ]
         },
         {
@@ -29,9 +28,9 @@
             "live-link": "link",
             "github_link": "https://github.com/Erin-Ramos/Project2-DataPagination",
             "image_url": [
-                "url one",
-                "url two",
-                "url three"
+                "/static/images/1-0.png",
+                "/static/images/1-1.png",
+                "/static/images/1-2.png"
             ]
         },
         {
@@ -46,9 +45,9 @@
             "live-link": "link",
             "github_link": "https://github.com/Erin-Ramos/Project3-InteractiveForm",
             "image_url": [
-                "url one",
-                "url two",
-                "url three"
+                "/static/images/2-0.png",
+                "/static/images/2-1.png",
+                "/static/images/2-2.png"
             ]
         },
         {
@@ -64,9 +63,8 @@
             "live-link": "link",
             "github_link": "https://github.com/Erin-Ramos/Project4-OOPGameShow",
             "image_url": [
-                "url one",
-                "url two",
-                "url three"
+                "/static/images/3-0.png",
+                "/static/images/3-1.png"
             ]
         },
         {
@@ -83,9 +81,8 @@
             "live-link": "link",
             "github_link": "https://github.com/Erin-Ramos/Project5-PublicAPIRequestsk",
             "image_url": [
-                "url one",
-                "url two",
-                "url three"
+                "/static/images/4-0.png",
+                "/static/images/4-1.png"
             ]
         }
     ]

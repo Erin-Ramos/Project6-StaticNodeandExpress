@@ -13,20 +13,19 @@ app.use('/static', express.static('public')); //good
 // set your routes 
 //----------------
 // index to render the home page with locals set to data.projects
-app.get('/', (req, res) => {
+app.get('/', (req, res, next) => {
     res.render('index', {projects});
 });
 
 // about to render the about page 
-app.get('/about', (req, res) => {
+app.get('/about', (req, res, next) => {
     res.render('about');
 });
 
 // project (5 based on the ID's) to render a page for each project 
 
-app.get('/project/:id', (req, res) => {
-    const project = projects.find( ({id}) => id === +req.params.id);
-    res.render('project', {project})
+app.get('/project', (req, res, next) => {
+    res.render('project');
 });
 
 //-----------------

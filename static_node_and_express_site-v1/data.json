@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "Provides the user with a random quote background color",
+            "description": "Provides the user with a randomly selected quote and background color each time they click a button.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -20,7 +20,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "An interactive webpage that allows the user to flip through pages of students and dynamically search for a specific student",
+            "description": "An interactive webpage that allows the user to easily navigate through pages of students and dynamically search for a specific student.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -37,7 +37,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "Registration form allowing the user to choose their job role, t-shirt style and size, sign up for courses, and submit payment",
+            "description": "Registration form allowing the user to choose their job role, t-shirt style and size, sign up for courses, and submit payment.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -54,7 +54,7 @@
         {
             "id": 3,
             "project_name": "OOP Game Show",
-            "description": "Hangman like game with 5 lives and 5 random phrases. Guess the phrase!",
+            "description": "Hangman like game with 5 lives and 5 random phrases. Guess the phrase before you run out of lives!",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -72,7 +72,7 @@
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "Pulls 12 random users from a third party API to be used to create an employee directory",
+            "description": "Pulls 12 random users from a third party API to be used to create an employee directory.",
             "technologies": [
                 "JavaScript",
                 "HTML",

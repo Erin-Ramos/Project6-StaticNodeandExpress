@@ -1,11 +1,10 @@
 const express = require('express'); //good
 const bodyParser = require('body-parser'); //good
-const projects = require('./data.json'); 
+const {projects} = require('./data.json'); 
 
 const app = express(); //good
 
 app.use(bodyParser.urlencoded({extended: false})); //good
-
 
 app.set('view engine', 'pug'); //good 
 app.use('/static', express.static('public')); //good
@@ -23,9 +22,16 @@ app.get('/about', (req, res, next) => {
 });
 
 // project (5 based on the ID's) to render a page for each project 
-
-app.get('/project', (req, res, next) => {
-    res.render('project');
+app.get('/projects/:id', (req, res, next) => {
+    const project = projects.find(({id}) => id === +req.params.id);
+    res.render('project', {project});
+    
+    /*
+    if (project) {
+        res.render('project', {project});
+    } else {
+        next();
+    } */
 });
 
 //-----------------

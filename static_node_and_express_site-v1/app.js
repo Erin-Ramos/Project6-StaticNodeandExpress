@@ -24,15 +24,27 @@ app.get('/about', (req, res, next) => {
 // project (5 based on the ID's) to render a page for each project 
 app.get('/projects/:id', (req, res, next) => {
     const project = projects.find(({id}) => id === +req.params.id);
-    res.render('project', {project});
-    
-    /*
+
     if (project) {
         res.render('project', {project});
     } else {
-        next();
-    } */
+        res.render('error');   
+    } 
 });
+
+//-----------------
+// handle errors
+app.use((req, res, next) => {
+    const err = new Error('Oops! No luck finding that page...');
+    err.status = 404;
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status)
+    res.render('page-not-found');
+  });  
 
 //-----------------
 // listen on port 3000 
@@ -40,11 +52,3 @@ app.get('/projects/:id', (req, res, next) => {
 app.listen(3000, () => {
     console.log('This application is running on localhost:3000!')
 });
-
-//-----------------
-// handle errors
-app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    console.log(res.status(err.status));
-  });  

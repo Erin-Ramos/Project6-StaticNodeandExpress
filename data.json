@@ -9,9 +9,9 @@
                 "HTML",
                 "CSS"
             ],
-            "live-link": "https://erin-ramos.github.io/Project1-RandomQuoteGenerator/",
+            "live_link": "https://erin-ramos.github.io/Project1-RandomQuoteGenerator/",
             "github_link": "https://github.com/Erin-Ramos/Project1-RandomQuoteGenerator",
-            "image_url": [
+            "image_urls": [
                 "/static/images/0-0.png",
                 "/static/images/0-1.png"
             ]
@@ -25,9 +25,9 @@
                 "HTML",
                 "CSS"
             ],
-            "live-link": "https://erin-ramos.github.io/Project2-DataPagination/",
+            "live_link": "https://erin-ramos.github.io/Project2-DataPagination/",
             "github_link": "https://github.com/Erin-Ramos/Project2-DataPagination",
-            "image_url": [
+            "image_urls": [
                 "/static/images/1-0.png",
                 "/static/images/1-1.png",
                 "/static/images/1-2.png"
@@ -42,9 +42,9 @@
                 "HTML",
                 "CSS"
             ],
-            "live-link": "https://erin-ramos.github.io/Project3-InteractiveForm/",
+            "live_link": "https://erin-ramos.github.io/Project3-InteractiveForm/",
             "github_link": "https://github.com/Erin-Ramos/Project3-InteractiveForm",
-            "image_url": [
+            "image_urls": [
                 "/static/images/2-0.png",
                 "/static/images/2-1.png",
                 "/static/images/2-2.png"
@@ -60,9 +60,9 @@
                 "CSS",
                 "Object-Oriented Programming"
             ],
-            "live-link": "https://erin-ramos.github.io/Project4-OOPGameShow/",
+            "live_link": "https://erin-ramos.github.io/Project4-OOPGameShow/",
             "github_link": "https://github.com/Erin-Ramos/Project4-OOPGameShow",
-            "image_url": [
+            "image_urls": [
                 "/static/images/3-0.png",
                 "/static/images/3-1.png"
             ]
@@ -78,9 +78,9 @@
                 "JSON",
                 "API"
             ],
-            "live-link": "https://erin-ramos.github.io/Project5-PublicAPIRequests/",
+            "live_link": "https://erin-ramos.github.io/Project5-PublicAPIRequests/",
             "github_link": "https://github.com/Erin-Ramos/Project5-PublicAPIRequestsk",
-            "image_url": [
+            "image_urls": [
                 "/static/images/4-0.png",
                 "/static/images/4-1.png"
             ]

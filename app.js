@@ -28,6 +28,7 @@ app.get('/projects/:id', (req, res, next) => {
     if (project) {
         res.render('project', {project});
     } else {
+        console.log("Oops! That page doesn't exist...")
         res.render('error');   
     } 
 });
@@ -37,12 +38,14 @@ app.get('/projects/:id', (req, res, next) => {
 app.use((req, res, next) => {
     const err = new Error('Oops! No luck finding that page...');
     err.status = 404;
+    console.log("Oops! No luck finding that page...")
     next(err);
 });
 
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.status(err.status)
+    const status = err.status || 500;
+    res.status(status)
     res.render('page-not-found');
   });  
 

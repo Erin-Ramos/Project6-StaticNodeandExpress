@@ -88,7 +88,7 @@
         {
             "id": 5,
             "project_name": "React Gallery App",
-            "description": "A searchable photo gallery application using React.",
+            "description": "A searchable photo gallery application using React. There is no live link available for this project as it used an API Key that cannot be included in the public GitHub Repository.",
             "technologies": [
                 "JavaScript",
                 "React",

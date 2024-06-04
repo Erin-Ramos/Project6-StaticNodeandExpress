@@ -120,7 +120,7 @@
                 "Node",
                 "Express"
             ],
-            "live_link": "project8-sqllibrarymanager-production.up.railway.app",
+            "live_link": "https://project8-sqllibrarymanager-production.up.railway.app/books",
             "github_link": "https://github.com/Erin-Ramos/Project8-SQLLibraryManager",
             "image_urls": [
                 "/static/images/6-0.png",

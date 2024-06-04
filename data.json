@@ -104,6 +104,29 @@
                 "/static/images/5-1.png",
                 "/static/images/5-2.png"
             ]
+        },
+        {
+            "id": 6,
+            "project_name": "SQL Library Manager",
+            "description": "A web application for listing, adding, updating, and deleting books in a library.",
+            "technologies": [
+                "JavaScript",
+                "React",
+                "HTML",
+                "CSS",
+                "JSON",
+                "API",
+                "SQL", 
+                "Node",
+                "Express"
+            ],
+            "live_link": "project8-sqllibrarymanager-production.up.railway.app",
+            "github_link": "https://github.com/Erin-Ramos/Project8-SQLLibraryManager",
+            "image_urls": [
+                "/static/images/6-0.png",
+                "/static/images/6-1.png",
+                "/static/images/6-2.png"
+            ]
         }
     ]
 }

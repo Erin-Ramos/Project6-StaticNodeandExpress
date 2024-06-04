@@ -70,7 +70,7 @@
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "Pulls 12 random users from a third party API to be used to create an employee directory.",
+            "description": "Pulls 12 random personas from a third party API to dynamically display an employee directory.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -83,6 +83,26 @@
             "image_urls": [
                 "/static/images/4-0.png",
                 "/static/images/4-1.png"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "A searchable photo gallery application using React.",
+            "technologies": [
+                "JavaScript",
+                "React",
+                "HTML",
+                "CSS",
+                "JSON",
+                "API"
+            ],
+            
+            "github_link": "https://github.com/Erin-Ramos/Project7-ReactGallery",
+            "image_urls": [
+                "/static/images/5-0.png",
+                "/static/images/5-1.png",
+                "/static/images/5-2.png"
             ]
         }
     ]

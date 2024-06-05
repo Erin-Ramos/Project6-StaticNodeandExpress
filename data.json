@@ -75,7 +75,7 @@
             "id": 4,
             "project_name": "Public API Requests",
             "description": "Pulls 12 random personas from a third party API to dynamically display an employee directory.",
-            "info": "",
+            "info": "By completing the Public API Requests project, I enhanced my front-end development skills, particularly in working with APIs, asynchronous programming, and dynamic DOM manipulation. I learned to fetch data from the Random User Generator API using fetch, process and render this data dynamically into the DOM, and create interactive elements such as employee cards and modal windows. This project also improved my ability to handle user interactions and events, manage asynchronous operations with async and await, and ensure a smooth user experience by handling potential errors gracefully. Overall, it provided a comprehensive understanding of integrating public APIs and creating responsive, data-driven web interfaces.",
             "technologies": [
                 "JavaScript",
                 "HTML",

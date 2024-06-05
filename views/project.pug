@@ -10,33 +10,29 @@ block content
   article.portfolio-projects
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
-
         h1= `${project.project_name}`
-
         p= `${project.description}`
-
         p= `${project.info}`
 
       .project-tech-links-box.box
         h6 Technologies
         ul
-
-          each technology in project.technologies 
+          each technology in project.technologies
             li= technology
 
+        if project.live_link
+          a.btn-link(href=`${project.live_link}`, target="_blank") Live Demo
 
-        a.btn-link(href=`${project.live_link}`, target="_blank") Live Demo
         a.btn-link(href=`${project.github_link}`, target="_blank") GitHub Repo
 
     .project-img-box.box
-
       img.project-img(src=`${project.image_urls[0]}`, alt='')
       img.project-img(src=`${project.image_urls[1]}`, alt='')
-      
+
       if project.image_urls[2]
         img.project-img(src=`${project.image_urls[2]}`, alt='')
 
-    nav.nav
-      a(href='/')
-        span &larr;
-        |  Back
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

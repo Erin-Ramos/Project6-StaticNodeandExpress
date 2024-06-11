@@ -12,11 +12,14 @@ block content
       .project-info-box.box
         h1= `${project.project_name}`
         p= `${project.description}`
-        p= `${project.info}`
+
+      ul(style='list-style-type:none') 
+        each info in project.info 
+        li= info
 
       .project-tech-links-box.box
         h6 Technologies
-        ul
+        ul(style='list-style-type:none') 
           each technology in project.technologies
             li= technology
 

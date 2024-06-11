@@ -1,10 +1,15 @@
 {
     "projects": [
         {
-            "id": 0,
+            "id": 6,
             "project_name": "Random Quote Generator",
             "description": "Provides the user with a randomly selected quote and background color each time they click a button.",
-            "info": "By completing the Random Quote Generator project for the Treehouse FSJS TechDegree, I began honing my skills in JavaScript programming, including array manipulation, randomization, functions, string interpolation, and conditional statements. I learned how to integrate HTML and CSS through DOM manipulation, dynamically changing webpage elements. Additionally, I gained experience in event handling and using time-based functions like setInterval().",
+            "info": [
+                "Honed JavaScript programming skills, including array manipulation, randomization, functions, string interpolation, and conditional statements.",
+                "Integrated HTML and CSS through DOM manipulation, dynamically changing webpage elements.",
+                "Gained experience in event handling.",
+                "Learned to use time-based functions like setInterval()."
+            ],
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -18,10 +23,18 @@
             ]
         },
         {
-            "id": 1,
+            "id": 5,
             "project_name": "Data Pagination and Filtering",
             "description": "An interactive webpage that allows the user to easily navigate through pages of students and dynamically search for a specific student.",
-            "info": "By completing the Data Pagination and Filtering project for the Treehouse Techdegree, I gained valuable skills in JavaScript programming and web development. I learned how to manipulate the DOM to display a paginated list of items dynamically, ensuring a clean and user-friendly interface. I became proficient in creating and managing pagination controls, enabling smooth navigation through data. Additionally, I developed a search functionality to filter and display results based on user input, enhancing the interactivity and usability of the webpage. This project also strengthened my ability to work with event listeners, HTML template literals, and conditional logic to build a robust and responsive application.",
+            "info": [
+                "Learned to manipulate the DOM to display a paginated list of items dynamically.",
+                "Ensured a clean and user-friendly interface.",
+                "Became proficient in creating and managing pagination controls for smooth data navigation.",
+                "Developed search functionality to filter and display results based on user input.",
+                "Enhanced the interactivity and usability of the webpage.",
+                "Strengthened ability to work with event listeners.",
+                "Utilized HTML template literals and conditional logic."
+            ],
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -36,7 +49,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 4,
             "project_name": "Interactive Form",
             "description": "Registration form allowing the user to choose their job role, t-shirt style and size, sign up for courses, and submit payment.",
             "info": "By completing the Interactive Form project for the Treehouse Techdegree, I enhanced my JavaScript skills in various areas, including DOM manipulation, event handling, and form validation. I learned to dynamically update form elements based on user input, such as showing or hiding job role fields and T-shirt color options. I also implemented accessibility features to improve the user experience and ensure focus states are clear. Additionally, I managed real-time updates to the total cost of selected activities and provided feedback on form validation, ensuring all necessary information is correctly filled out before submission. This project strengthened my ability to create interactive and user-friendly forms, crucial for modern web development.",
@@ -72,7 +85,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 0,
             "project_name": "Public API Requests",
             "description": "Pulls 12 random personas from a third party API to dynamically display an employee directory.",
             "info": "By completing the Public API Requests project, I enhanced my front-end development skills, particularly in working with APIs, asynchronous programming, and dynamic DOM manipulation. I learned to fetch data from the Random User Generator API using fetch, process and render this data dynamically into the DOM, and create interactive elements such as employee cards and modal windows. This project also improved my ability to handle user interactions and events, manage asynchronous operations with async and await, and ensure a smooth user experience by handling potential errors gracefully. Overall, it provided a comprehensive understanding of integrating public APIs and creating responsive, data-driven web interfaces.",
@@ -91,7 +104,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 2,
             "project_name": "React Gallery App",
             "description": "A searchable photo gallery application using React.",
             "info": "By completing the Photo Gallery project using React and the Flickr API, I strengthened my skills in modern web development, particularly in using React for building interactive user interfaces. I learned to manage state with useState and control side effects with useEffect to fetch and display data dynamically based on user input and navigation changes. I gained experience with React Router for client-side routing, allowing users to navigate between different views seamlessly. Additionally, I implemented Axios for handling API requests, creating a responsive photo gallery that updates based on search queries. This project also enhanced my understanding of component-based architecture, event handling, and conditional rendering in React.",
@@ -111,7 +124,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 1,
             "project_name": "SQL Library Manager",
             "description": "A web application for listing, adding, updating, and deleting books in a library.",
             "info": "By completing the SQL Library Manager project, I improved my skills in full-stack web development, particularly with Express.js and Sequelize. I learned how to set up an Express application with Pug as the templating engine, manage routes for CRUD operations, and handle middleware for logging, parsing, and static files. I gained experience in designing models and establishing database connections using Sequelize, including defining validations and handling associations. Additionally, I implemented error handling and validation to ensure a robust application. This project enhanced my understanding of RESTful APIs, asynchronous programming, and dynamic content rendering, preparing me for building complex web applications.",
@@ -122,7 +135,7 @@
                 "CSS",
                 "JSON",
                 "API",
-                "SQL", 
+                "SQL",
                 "Node",
                 "Express"
             ],

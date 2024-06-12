@@ -3,7 +3,7 @@ extends layout.pug
 block content
 
   nav.nav
-    a(href='/')
+    a(href='#', onclick='window.history.back(); return false;')
       span &larr;
       |  Back
 
@@ -13,13 +13,13 @@ block content
         h1= `${project.project_name}`
         p= `${project.description}`
 
-      ul(style='list-style-type:none') 
-        each info in project.info 
-        li= info
+        ul(style='list-style-type:disc')
+          each info in project.info 
+            li= info
 
       .project-tech-links-box.box
         h6 Technologies
-        ul(style='list-style-type:none') 
+        ul
           each technology in project.technologies
             li= technology
 
@@ -28,12 +28,12 @@ block content
 
         a.btn-link(href=`${project.github_link}`, target="_blank") GitHub Repo
 
-    .project-img-box.box
-      img.project-img(src=`${project.image_urls[0]}`, alt='')
-      img.project-img(src=`${project.image_urls[1]}`, alt='')
+      .project-img-box.box
+        img.project-img(src=`${project.image_urls[0]}`, alt='')
+        img.project-img(src=`${project.image_urls[1]}`, alt='')
 
-      if project.image_urls[2]
-        img.project-img(src=`${project.image_urls[2]}`, alt='')
+        if project.image_urls[2]
+          img.project-img(src=`${project.image_urls[2]}`, alt='')
 
   nav.nav
     a(href='/')

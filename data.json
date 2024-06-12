@@ -1,25 +1,141 @@
 {
     "projects": [
         {
-            "id": 6,
-            "project_name": "Random Quote Generator",
-            "description": "Provides the user with a randomly selected quote and background color each time they click a button.",
+            "id": 0,
+            "project_name": "Public API Requests",
+            "description": "Pulls 12 random personas from a third party API to dynamically display an employee directory.",
             "info": [
-                "Honed JavaScript programming skills, including array manipulation, randomization, functions, string interpolation, and conditional statements.",
-                "Integrated HTML and CSS through DOM manipulation, dynamically changing webpage elements.",
-                "Gained experience in event handling.",
-                "Learned to use time-based functions like setInterval()."
+                "Enhanced front-end development skills, particularly in working with APIs, asynchronous programming, and dynamic DOM manipulation.",
+                "Learned to fetch data from the Random User Generator API using fetch, process and render this data dynamically into the DOM.",
+                "Created interactive elements such as employee cards and modal windows.",
+                "Improved ability to handle user interactions and events.",
+                "Managed asynchronous operations with async and await.",
+                "Ensured a smooth user experience by handling potential errors gracefully.",
+                "Provided a comprehensive understanding of integrating public APIs and creating responsive, data-driven web interfaces."
+            ],
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON",
+                "API"
+            ],
+            "live_link": "https://erin-ramos.github.io/Project5-PublicAPIRequests/",
+            "github_link": "https://github.com/Erin-Ramos/Project5-PublicAPIRequests",
+            "image_urls": [
+                "/static/images/4-0.png",
+                "/static/images/4-1.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "SQL Library Manager",
+            "description": "A web application for listing, adding, updating, and deleting books in a library.",
+            "info": [
+                "Improved skills in full-stack web development, particularly with Express.js and Sequelize.",
+                "Learned how to set up an Express application with Pug as the templating engine.",
+                "Managed routes for CRUD operations.",
+                "Handled middleware for logging, parsing, and static files.",
+                "Gained experience in designing models and establishing database connections using Sequelize.",
+                "Defined validations and handled associations.",
+                "Implemented error handling and validation to ensure a robust application.",
+                "Enhanced understanding of RESTful APIs, asynchronous programming, and dynamic content rendering.",
+                "Prepared for building complex web applications."
+            ],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "HTML",
+                "CSS",
+                "JSON",
+                "API",
+                "SQL",
+                "Node",
+                "Express"
+            ],
+            "live_link": "https://project8-sqllibrarymanager-production.up.railway.app/books",
+            "github_link": "https://github.com/Erin-Ramos/Project8-SQLLibraryManager",
+            "image_urls": [
+                "/static/images/6-0.png",
+                "/static/images/6-1.png",
+                "/static/images/6-2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "React Gallery App",
+            "description": "A searchable photo gallery application using React.",
+            "info": [
+                "Strengthened skills in modern web development, particularly in using React for building interactive user interfaces.",
+                "Learned to manage state with useState and control side effects with useEffect to fetch and display data dynamically based on user input and navigation changes.",
+                "Gained experience with React Router for client-side routing, allowing users to navigate between different views seamlessly.",
+                "Implemented Axios for handling API requests, creating a responsive photo gallery that updates based on search queries.",
+                "Enhanced understanding of component-based architecture, event handling, and conditional rendering in React."
+            ],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "HTML",
+                "CSS",
+                "JSON",
+                "API"
+            ],
+            "github_link": "https://github.com/Erin-Ramos/Project7-ReactGallery",
+            "image_urls": [
+                "/static/images/5-0.png",
+                "/static/images/5-1.png",
+                "/static/images/5-2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show",
+            "description": "Hangman like game with 5 lives and 5 random phrases. Guess the phrase before you run out of lives!",
+            "info": [
+                "Developed and refined skills in object-oriented programming (OOP) using JavaScript.",
+                "Learned to structure code by creating classes such as Game and Phrase.",
+                "Encapsulated related properties and methods within these classes to manage game logic and phrase handling.",
+                "Gained experience in event handling by setting up interactions for button clicks and key presses, ensuring a responsive and interactive user interface.",
+                "Implemented DOM manipulation to dynamically update the game state, display phrases, manage user input, and provide feedback on game progress.",
+                "Enhanced debugging skills and understanding of state management within a complex application."
+            ],
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Object-Oriented Programming"
+            ],
+            "live_link": "https://erin-ramos.github.io/Project4-OOPGameShow/",
+            "github_link": "https://github.com/Erin-Ramos/Project4-OOPGameShow",
+            "image_urls": [
+                "/static/images/3-0.png",
+                "/static/images/3-1.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Interactive Form",
+            "description": "Registration form allowing the user to choose their job role, t-shirt style and size, sign up for courses, and submit payment.",
+            "info": [
+                "Enhanced JavaScript skills in DOM manipulation, event handling, and form validation.",
+                "Learned to dynamically update form elements based on user input.",
+                "Implemented features to show or hide job role fields and T-shirt color options.",
+                "Added accessibility features to improve user experience and ensure clear focus states.",
+                "Managed real-time updates to the total cost of selected activities.",
+                "Provided feedback on form validation to ensure all necessary information is correctly filled out before submission.",
+                "Strengthened ability to create interactive and user-friendly forms, crucial for modern web development."
             ],
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://erin-ramos.github.io/Project1-RandomQuoteGenerator/",
-            "github_link": "https://github.com/Erin-Ramos/Project1-RandomQuoteGenerator",
+            "live_link": "https://erin-ramos.github.io/Project3-InteractiveForm/",
+            "github_link": "https://github.com/Erin-Ramos/Project3-InteractiveForm",
             "image_urls": [
-                "/static/images/0-0.png",
-                "/static/images/0-1.png"
+                "/static/images/2-0.png",
+                "/static/images/2-1.png",
+                "/static/images/2-2.png"
             ]
         },
         {
@@ -49,102 +165,25 @@
             ]
         },
         {
-            "id": 4,
-            "project_name": "Interactive Form",
-            "description": "Registration form allowing the user to choose their job role, t-shirt style and size, sign up for courses, and submit payment.",
-            "info": "By completing the Interactive Form project for the Treehouse Techdegree, I enhanced my JavaScript skills in various areas, including DOM manipulation, event handling, and form validation. I learned to dynamically update form elements based on user input, such as showing or hiding job role fields and T-shirt color options. I also implemented accessibility features to improve the user experience and ensure focus states are clear. Additionally, I managed real-time updates to the total cost of selected activities and provided feedback on form validation, ensuring all necessary information is correctly filled out before submission. This project strengthened my ability to create interactive and user-friendly forms, crucial for modern web development.",
+            "id": 6,
+            "project_name": "Random Quote Generator",
+            "description": "Provides the user with a randomly selected quote and background color each time they click a button.",
+            "info": [
+                "Honed JavaScript programming skills, including array manipulation, randomization, functions, string interpolation, and conditional statements.",
+                "Integrated HTML and CSS through DOM manipulation, dynamically changing webpage elements.",
+                "Gained experience in event handling.",
+                "Learned to use time-based functions like setInterval()."
+            ],
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://erin-ramos.github.io/Project3-InteractiveForm/",
-            "github_link": "https://github.com/Erin-Ramos/Project3-InteractiveForm",
+            "live_link": "https://erin-ramos.github.io/Project1-RandomQuoteGenerator/",
+            "github_link": "https://github.com/Erin-Ramos/Project1-RandomQuoteGenerator",
             "image_urls": [
-                "/static/images/2-0.png",
-                "/static/images/2-1.png",
-                "/static/images/2-2.png"
-            ]
-        },
-        {
-            "id": 3,
-            "project_name": "OOP Game Show",
-            "description": "Hangman like game with 5 lives and 5 random phrases. Guess the phrase before you run out of lives!",
-            "info": "By completing the OOP Game Show project for the Treehouse Techdegree, I developed and refined my skills in object-oriented programming (OOP) using JavaScript. I learned to structure my code by creating classes such as Game and Phrase, encapsulating related properties and methods within these classes to manage game logic and phrase handling. I gained experience in event handling by setting up interactions for button clicks and key presses, ensuring a responsive and interactive user interface. Additionally, I implemented DOM manipulation to dynamically update the game state, display phrases, manage user input, and provide feedback on game progress. This project also enhanced my debugging skills and understanding of state management within a complex application.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Object-Oriented Programming"
-            ],
-            "live_link": "https://erin-ramos.github.io/Project4-OOPGameShow/",
-            "github_link": "https://github.com/Erin-Ramos/Project4-OOPGameShow",
-            "image_urls": [
-                "/static/images/3-0.png",
-                "/static/images/3-1.png"
-            ]
-        },
-        {
-            "id": 0,
-            "project_name": "Public API Requests",
-            "description": "Pulls 12 random personas from a third party API to dynamically display an employee directory.",
-            "info": "By completing the Public API Requests project, I enhanced my front-end development skills, particularly in working with APIs, asynchronous programming, and dynamic DOM manipulation. I learned to fetch data from the Random User Generator API using fetch, process and render this data dynamically into the DOM, and create interactive elements such as employee cards and modal windows. This project also improved my ability to handle user interactions and events, manage asynchronous operations with async and await, and ensure a smooth user experience by handling potential errors gracefully. Overall, it provided a comprehensive understanding of integrating public APIs and creating responsive, data-driven web interfaces.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "JSON",
-                "API"
-            ],
-            "live_link": "https://erin-ramos.github.io/Project5-PublicAPIRequests/",
-            "github_link": "https://github.com/Erin-Ramos/Project5-PublicAPIRequests",
-            "image_urls": [
-                "/static/images/4-0.png",
-                "/static/images/4-1.png"
-            ]
-        },
-        {
-            "id": 2,
-            "project_name": "React Gallery App",
-            "description": "A searchable photo gallery application using React.",
-            "info": "By completing the Photo Gallery project using React and the Flickr API, I strengthened my skills in modern web development, particularly in using React for building interactive user interfaces. I learned to manage state with useState and control side effects with useEffect to fetch and display data dynamically based on user input and navigation changes. I gained experience with React Router for client-side routing, allowing users to navigate between different views seamlessly. Additionally, I implemented Axios for handling API requests, creating a responsive photo gallery that updates based on search queries. This project also enhanced my understanding of component-based architecture, event handling, and conditional rendering in React.",
-            "technologies": [
-                "JavaScript",
-                "React",
-                "HTML",
-                "CSS",
-                "JSON",
-                "API"
-            ],
-            "github_link": "https://github.com/Erin-Ramos/Project7-ReactGallery",
-            "image_urls": [
-                "/static/images/5-0.png",
-                "/static/images/5-1.png",
-                "/static/images/5-2.png"
-            ]
-        },
-        {
-            "id": 1,
-            "project_name": "SQL Library Manager",
-            "description": "A web application for listing, adding, updating, and deleting books in a library.",
-            "info": "By completing the SQL Library Manager project, I improved my skills in full-stack web development, particularly with Express.js and Sequelize. I learned how to set up an Express application with Pug as the templating engine, manage routes for CRUD operations, and handle middleware for logging, parsing, and static files. I gained experience in designing models and establishing database connections using Sequelize, including defining validations and handling associations. Additionally, I implemented error handling and validation to ensure a robust application. This project enhanced my understanding of RESTful APIs, asynchronous programming, and dynamic content rendering, preparing me for building complex web applications.",
-            "technologies": [
-                "JavaScript",
-                "React",
-                "HTML",
-                "CSS",
-                "JSON",
-                "API",
-                "SQL",
-                "Node",
-                "Express"
-            ],
-            "live_link": "https://project8-sqllibrarymanager-production.up.railway.app/books",
-            "github_link": "https://github.com/Erin-Ramos/Project8-SQLLibraryManager",
-            "image_urls": [
-                "/static/images/6-0.png",
-                "/static/images/6-1.png",
-                "/static/images/6-2.png"
+                "/static/images/0-0.png",
+                "/static/images/0-1.png"
             ]
         }
     ]

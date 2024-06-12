@@ -58,6 +58,13 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  list-style-type: none;
+}
+
 .wrapper {
   width: 100%;
   min-width: 320px;
@@ -97,10 +104,12 @@ a {
   letter-spacing: 2px;
 }
 
-.box li {
+/* TODO
+.box ul li {
+  font-family: 'Merriweather', serif;
   font-size: 13px;
 }
-
+*/
 
 /*
   Sidebar and mobile header
@@ -281,9 +290,12 @@ nav a span {
   padding-top: 25px;
 }
 
-.about-bio li {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+/* TODO
+.about-bio ul li {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
 }
+*/
 
 .skills-contact-box ul {
   margin-bottom: 35px;

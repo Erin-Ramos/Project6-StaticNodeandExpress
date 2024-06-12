@@ -3,16 +3,14 @@ extends layout.pug
 block content
 
   nav.nav
-    a(href='/')
+    a(href='#', onclick='window.history.back(); return false;')
       span &larr;
       |  Back
 
   article.portfolio-about
     .inner-wrapper.flex-row-wrap.two-col
       .about-intro-box.box
-
         h1 Erin Ramos
-
         p Full Stack JavaScript Developer
         p 
           | Motivated Full Stack JavaScript Developer and Marine Corps Veteran with a strong background in mathematics and a passion for problem-solving. 
@@ -20,7 +18,6 @@ block content
           | applications using JavaScript, MongoDB, Express, React, Node.js, MERN.
 
         .about-bio
-    
           h3 Education  
           p 
             em Full Stack JavaScript TechDegree, Remote
@@ -32,25 +29,23 @@ block content
             em Bunker Hill Community College, Boston, MA
             | | Associate of Science in Mathematics | 2019 - 2020
 
-
           h3 Professional Experience 
           p 
             em Berkshire Hathaway Home Services 
             | Realtor | 2021 - Present 
-          
-          p 
+          p(style="margin-bottom: 2.5px") 
             em United States Marine Corps 
             | Maintenance Management Chief | 2013-2017
-          p Created and maintained an award winning system for managing user permissions within an Oracle Data System. This system was then documented and distributed throughout the Marine Corps for use by all Using Unit Account Managers.
+          ul(style="margin-top: 0")
+            li Created and maintained an award-winning system for managing user permissions within an Oracle Data System. This system was then documented and distributed throughout the Marine Corps for use by all Using Unit Account Managers.
 
       .skills-contact-box.box
-
         h6 Certifications 
-        ul(style='list-style-type:none') 
+        ul
           li Full Stack JavaScript TechDegree | Team Treehouse
 
         h6 Skills
-        ul(style='list-style-type:none') 
+        ul
           li HTML
           li CSS
           li JavaScript
@@ -66,18 +61,16 @@ block content
           li SQL 
           li VS Code
           li Accessibility
-      
 
         h6 Contact Info
         ul
           li (770) 630-7122
           li erinramos415@gmail.com
 
-        a(href="/pdfs/Erin-Ramos-FSJS-Dev.pdf" download="Erin-Ramos-FSJS-Dev.pdf")
+        a(href="static/pdfs/Erin-Ramos-FSJS-Dev.pdf" download="Erin-Ramos-FSJS-Dev.pdf")
           button Download Resume
         a.btn-link(href='https://github.com/Erin-Ramos') GitHub
 
-    nav.nav
-      a(href='/')
-        span &larr;
-        |  Back
+  nav.nav
+    a(href='/')
+     

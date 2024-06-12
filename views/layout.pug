@@ -19,8 +19,13 @@ html(lang="en" dir="ltr")
           h5 Erin Ramos
 
           p My journey into the world of web development began with a fascination for technology and a drive to solve problems. Through rigorous self-study and immersive coding bootcamps, I honed my skills in HTML, CSS, JavaScript, and a variety of modern frameworks and libraries.
-
-          a(href='/about') Resume &rarr;
+          
+          if currentPath === '/about'
+            a(href='/') 
+              span &larr; 
+              | Projects 
+          else 
+            a(href='/about') Resume &rarr;
 
     .wrapper
       .header
